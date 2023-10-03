@@ -25,7 +25,7 @@ def fraud_detection(input_data):
         return 'Fraudulent transaction'
 
 def main():
-    st.title('**Welcome to Fraudulent Transaction Detection Website!!**')
+    st.title('**Fraudulent Transaction Detection System!!**')
 
     options = ['PAYMENT', 'TRANSFER', 'CASH_OUT', 'DEBIT', 'CASH_IN']
     values = [2, 4, 1, 5, 3]
